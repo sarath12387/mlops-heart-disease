@@ -1,0 +1,12 @@
+# Task 5: GitHub Actions pipeline
+# TODO: jobs for lint (flake8/ruff) -> pytest -> run src/train.py
+# Upload artifacts (model, metrics) per run. Pipeline must FAIL on errors.
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "TODO replace with lint/test/train jobs"

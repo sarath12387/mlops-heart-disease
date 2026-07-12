@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+mlruns/
+data/raw/
+.ipynb_checkpoints/
+.pytest_cache/
